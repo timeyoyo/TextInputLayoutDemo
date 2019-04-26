@@ -14,11 +14,11 @@
         android:id="@+id/tv_input_lay"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:gravity="center_vertical"
         android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
 
-        app:counterTextAppearance="@style/overAppearance"
         app:counterOverflowTextAppearance="@style/errorAppearance"
+        app:counterTextAppearance="@style/overAppearance"
 
         app:passwordToggleTint="@color/select_pwd_icon_color">
 
